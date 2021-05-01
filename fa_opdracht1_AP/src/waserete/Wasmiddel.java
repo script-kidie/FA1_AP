@@ -4,7 +4,7 @@ public class Wasmiddel{
     private int inhoudMl;
     private String wkleur;
 
-    public Wasmiddel(String wkleur, int inhoud_ml) {
+    public Wasmiddel(String wkleur, int inhoudMl) {
         this.inhoudMl = inhoudMl;
         this.wkleur = wkleur;
     }
