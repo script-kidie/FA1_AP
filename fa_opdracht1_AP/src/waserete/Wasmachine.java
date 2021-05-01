@@ -1,19 +1,19 @@
 package waserete;
 
 public class Wasmachine extends Kleding implements Wasje{
-    private int temp_c;
+    private int tempC;
     private int rpm;
     private int nummer;
 
-    public Wasmachine(String kleur, String stof, int temp_c, int rpm, int nummer) {
+    public Wasmachine(String kleur, String stof, int tempC, int rpm, int nummer) {
         super(kleur, stof);
-        this.temp_c = temp_c;
+        this.tempC = tempC;
         this.rpm = rpm;
         this.nummer = nummer;
     }
 
-    public int getTemp_c() {
-        return temp_c;
+    public int getTempC() {
+        return tempC;
     }
 
     public int getRpm() {
@@ -27,7 +27,7 @@ public class Wasmachine extends Kleding implements Wasje{
     @Override
     public String toString() {
         return "Wasmachine{" +
-                "temp_c=" + temp_c +
+                "temp_c=" + tempC +
                 ", rpm=" + rpm +
                 ", nummer=" + nummer +
                 '}';

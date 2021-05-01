@@ -1,11 +1,11 @@
 package waserete;
 
-public class Persoon extends Wasmiddel implements Wasjes_draaier{
+public class Persoon extends Wasmiddel implements WasjesDraaier{
     private String naam;
 
 
-    public Persoon(String w_kleur, int inhoud_ml, String naam) {
-        super(w_kleur, inhoud_ml);
+    public Persoon(String wkleur, int inhoudMl, String naam) {
+        super(wkleur, inhoudMl);
         this.naam = naam;
     }
 

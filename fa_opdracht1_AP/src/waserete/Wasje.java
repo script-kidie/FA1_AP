@@ -29,5 +29,5 @@ public interface Wasje {
      * geeft de tempratuur in celcius van de wasbeurt
      * @return de trempratuur van de wasbeurt
      */
-    int getTemp_c();
+    int getTempC();
 }
